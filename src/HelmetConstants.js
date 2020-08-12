@@ -49,7 +49,8 @@ export const HELMET_PROPS = {
     DEFER: "defer",
     ENCODE_SPECIAL_CHARACTERS: "encodeSpecialCharacters",
     ON_CHANGE_CLIENT_STATE: "onChangeClientState",
-    TITLE_TEMPLATE: "titleTemplate"
+    TITLE_TEMPLATE: "titleTemplate",
+    PLACEMENT: "placement",
 };
 
 export const HTML_TAG_MAP = Object.keys(REACT_TAG_MAP).reduce((obj, key) => {
